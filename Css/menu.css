@@ -1,0 +1,69 @@
+.wrapper {
+    display: flex;
+}
+.menu_image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.side_menu_title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.side_menu {
+    width: 200px;
+}
+.side_menu_item {
+    padding: 20px 10px;
+    border-bottom: solid #42210b 1px;
+    display: block;
+    text-decoration: none;
+}
+.menu_price {
+    font-family: 'Noto Serif JP', serif;
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.menu_name {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2em;
+    margin: 0;
+}
+.side_ad {
+    color: #fff;
+    background: rgba(83,71,65,.7);
+    padding: 20px;
+    margin: 30px 0;
+}
+.main {
+    padding: 0 0 0 50px;
+    width: calc(100% - 200px);
+}
+.pancake_menu {
+    background: rgba(83,71,65,.3);
+    padding: 20px;
+    margin-top: 50px;
+}
+.section_title {
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+.btn-detail {
+    background: #2e58a6;
+    color: #fff;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 40%);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
